@@ -42,7 +42,7 @@ sidebar-about-description: "好好学习，热爱工作，享受生活。"
 
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 3              # A tag will be featured if the size of it is more than this condition value
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
 
 # Exclude from processing.
 # The following items will not be processed, by default.
