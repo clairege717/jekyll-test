@@ -29,6 +29,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  clairege717
 keyword: "前端 技术栈"
 
+# SNS settings
 RSS: true
 
 # Build settings
@@ -36,8 +37,9 @@ gems: [jekyll-feed, jekyll-archives]
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "好好学习，热爱工作，享受生活。"
-# sidebar-avatar: /img/avatar-hux.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "好记性不如烂笔记。"
+sidebar-about-destination: "好好学习，热爱工作，享受生活。"
+sidebar-avatar: /assets/images/avatar.png      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 # Featured Tags

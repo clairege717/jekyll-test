@@ -1,6 +1,17 @@
 @import url("bootstrap.css");
 
-body {
-    margin: 0;
-    padding: 0;
+.intro-header {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.tags-item {
+    padding: 0.5rem;
+}
+
+.sidebar-avatar {
+    width: 200px;
+    border-radius: 1rem;
+    filter: grayscale(30%);
 }
