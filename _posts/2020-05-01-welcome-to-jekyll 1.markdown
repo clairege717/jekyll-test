@@ -1,8 +1,9 @@
 ---
 layout: page
 title:  "Welcome to Jekyll!"
-date:   2020-04-27 22:11:41 +0800
+date:   2020-05-01 22:11:41 +0800
 categories: jekyll update
+author:     "Claire"
 tags:
     - 生活生活
     - 测试测

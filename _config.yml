@@ -33,7 +33,7 @@ keyword: "前端 技术栈"
 RSS: true
 
 # Build settings
-gems: [jekyll-feed, jekyll-archives]
+gems: [jekyll-feed, jekyll-archives, jekyll-paginate]
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -45,6 +45,10 @@ sidebar-avatar: /assets/images/avatar.png      # use absolute URL, seeing it's u
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
 featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+# paginate
+paginate: 5
+paginate_path: "page:num"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
