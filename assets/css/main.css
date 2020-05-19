@@ -15,3 +15,37 @@
     border-radius: 1rem;
     filter: grayscale(30%);
 }
+
+.post-preview>a {
+    text-decoration: none;
+}
+
+.post-preview>a:hover,
+.post-preview>a:focus {
+    text-decoration: none;
+}
+
+.post-preview .post-title {
+    color: var(--gray);
+}
+
+.post-preview .post-subtitle,
+.post-preview .post-content-preview {
+    color: var(--gray-light);
+}
+
+.post-preview>a:hover .post-title,
+.post-preview>a:focus .post-title {
+    color: var(--gray-dark);
+}
+
+.post-preview>a:hover .post-subtitle,
+.post-preview>a:focus .post-subtitle,
+.post-preview>a:hover .post-content-preview,
+.post-preview>a:focus .post-content-preview {
+    color: var(--gray);
+}
+
+.post-preview .post-meta {
+    color: var(--gray-dark);
+}
