@@ -49,3 +49,33 @@
 .post-preview .post-meta {
     color: var(--gray-dark);
 }
+
+.timeline {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.timeline .timeline-title {
+    color: var(--gray-dark);
+    font-size: 1.25rem;
+
+}
+
+.timeline-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+
+.timeline-list li {
+    border-left: 1px solid var(--gray);
+}
+
+.timeline-list>.year-item,
+.timeline-list>.date-item {
+    padding-left: 1.25rem;
+}
+
+.timeline-list>.year-item p {
+    margin-bottom: 0;
+}
