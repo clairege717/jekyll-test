@@ -68,14 +68,49 @@
 
 
 .timeline-list li {
-    border-left: 1px solid var(--gray);
+    padding-left: 4.5rem;
 }
 
-.timeline-list>.year-item,
-.timeline-list>.date-item {
-    padding-left: 1.25rem;
+.timeline-list>.year-item {
+    position: relative;
+    height: 2.5rem;
+    line-height: 2.5rem;
 }
 
-.timeline-list>.year-item p {
+.timeline-list>.year-item>.year {
     margin-bottom: 0;
+    position: absolute;
+    left: 0;
+    font-size: 1.5rem;
+    box-sizing: content-box;
+    border-right: 1px solid var(--gray);
+    width: 4.5rem;
+    color: var(--gray-dark);
+}
+
+.timeline-list>.date-item>.date-container {
+    border-left: 1px solid var(--gray);
+    padding-left: 1.25rem;
+    position: relative;
+    line-height: 1.75rem;
+}
+
+.timeline-list>.date-item>.date-container>time {
+    color: var(--gray-dark);
+}
+
+.timeline-list>.year-item>.year::after,
+.timeline-list>.date-item>.date-container::before {
+    content: "-";
+    font-size: 1rem;
+    position: absolute;
+    letter-spacing: 0;
+}
+
+.timeline-list>.year-item>.year::after {
+    right: 0;
+}
+
+.timeline-list>.date-item>.date-container::before {
+    left: 0;
 }

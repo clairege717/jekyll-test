@@ -12,19 +12,19 @@ layout: default
     {% capture nextPostYear %} {{ post.next.date | date: "%Y" }} {% endcapture %}
     {% if postYear != nextPostYear %}
     <li class="year-item">
-      <p id="year{{ post.date | date: '%Y' }}">{{ post.date | date: '%Y' }}</p>
+      <p class="year" id="year{{ post.date | date: '%Y' }}">{{ post.date | date: '%Y' }}</p>
     </li>
     {% endif %}
     {% else %}
     <li class="year-item">
-      <p id="year{{ post.date | date: '%Y' }}">{{ post.date | date: '%Y' }}</p>
+      <p class="year" id="year{{ post.date | date: '%Y' }}">{{ post.date | date: '%Y' }}</p>
     </li>
     {% endif %}
 
     <li class="date-item">
-      <div>
+      <div class="date-container">
         <time>{{ post.date | date:"%m-%d" }}</time>
-        <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        <a class="text-secondary text-decoration-none" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </div>
     </li>
 
